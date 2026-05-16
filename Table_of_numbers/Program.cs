@@ -1,14 +1,18 @@
 ﻿Console.Write("Enter the number of columns: ");
-int columns;
-if (int.TryParse(Console.ReadLine(), out columns)) //reading column count from console input
+if (int.TryParse(Console.ReadLine(), out int columns)) //reading column count from console input
+
+if (columns <= 0) //checking the correctness of the number of columns
+{
+    Console.WriteLine("The number of columns you entered is incorrect");
+    return;
+}
 
 Console.Write("Enter the number of rows: ");
-int rows;
-if (int.TryParse(Console.ReadLine(), out rows)) //reading row count from console input
+if (int.TryParse(Console.ReadLine(), out int rows)) //reading row count from console input
 
-if (columns <= 0 || rows <= 0) //checking the correctness of the number of columns and rows
+if (rows <= 0) //checking the correctness of the number of rows
 {
-    Console.WriteLine("The number of columns/rows you entered is incorrect");
+    Console.WriteLine("The number of rows you entered is incorrect");
     return;
 }
 
