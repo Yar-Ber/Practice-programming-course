@@ -2,7 +2,7 @@
 
 if (!int.TryParse(Console.ReadLine(), out int columns) || columns <= 0) //checking the correctness of the number of columns
         {
-    Console.WriteLine("The number of columns you entered is incorrect");
+    Console.WriteLine("The number of columns you entered is incorrect.");
     return;
 }
 
@@ -10,7 +10,7 @@ Console.Write("Enter the number of rows: ");
 
 if (!int.TryParse(Console.ReadLine(), out int rows) || rows <= 0) //checking the correctness of the number of rows
 {
-    Console.WriteLine("The number of rows you entered is incorrect");
+    Console.WriteLine("The number of rows you entered is incorrect.");
     return;
 }
 
