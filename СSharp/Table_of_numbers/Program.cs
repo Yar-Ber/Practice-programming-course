@@ -1,7 +1,7 @@
 ﻿Console.Write("Enter the number of columns: ");
 
 if (!int.TryParse(Console.ReadLine(), out int columns) || columns <= 0) //checking the correctness of the number of columns
-        {
+{
     Console.WriteLine("The number of columns you entered is incorrect.");
     return;
 }
