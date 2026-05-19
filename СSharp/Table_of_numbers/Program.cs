@@ -8,8 +8,8 @@ if (!int.TryParse(Console.ReadLine(), out int columns) || columns <= 0) //checki
 
 Console.Write("Enter the number of rows: ");
 
-    if (!int.TryParse(Console.ReadLine(), out int rows) || rows <= 0) //checking the correctness of the number of rows
-    {
+if (!int.TryParse(Console.ReadLine(), out int rows) || rows <= 0) //checking the correctness of the number of rows
+{
     Console.WriteLine("The number of rows you entered is incorrect");
     return;
 }
