@@ -24,4 +24,4 @@ for i in range(0, columns * rows): #Cycle of adding numbers to a table and a ran
 percentage_even_numbers = len(even_numbers) / len(numbers) * 100  #The number of even numbers as a percentage
 average = sum(even_numbers) / len(even_numbers) #The arithmetic mean
 print(f"List of numbers: {numbers}\nFiltered (even) list: {even_numbers}\n")
-print(f"\n --- Statistics for Even Numbers ---\nCount of even numbers: {len(even_numbers)}\nPercentage of even numbers: {percentage_even_numbers.2f}%\nSum of even numbers: {sum(even_numbers)}\nAverage of even numbers: {average}")
+print(f"\n --- Statistics for Even Numbers ---\nCount of even numbers: {len(even_numbers)}\nPercentage of even numbers: {percentage_even_numbers:.2f}%\nSum of even numbers: {sum(even_numbers)}\nAverage of even numbers: {average}")
